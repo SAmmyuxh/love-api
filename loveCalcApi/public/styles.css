@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_640.jpg);
+   background-repeat: no-repeat;
+   background-size: 1600px 800px;
+   
+}
+
+.head{
+    display: flex;
+   justify-content: center;
+    align-content: center;
+    color:red;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*{
+    text-align: center;
+}
+.first{
+    padding:8px 4px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.second{
+    padding:8px 4px;
+    width: 300px;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 28px;
+    color:red;
+    margin-left: -240px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="head">Love Calculator</h1>
+    <form id="myform" method="post" action="/calculate">
+    <div class="name">
+        <input type="text" class="first" name="fname" placeholder="Enter Your Name">
+        <input type="text" class="second" name="sname" placeholder="Enter Your Lovers Name">
+    </div>
+    <button type="submit">Calculate</button>
+    <div class="result">
+       <p>
+       Percentage : <%= content1 %>
+       </p>
+       <p>
+        LoveMantra :<%= content2 %>
+       </p>
+    </div>
+</form>
+</body>
+</html>
